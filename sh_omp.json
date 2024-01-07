@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#01F0FF",
+          "style": "plain",
+          "template": " {{ .UserName }} ",
+          "type": "session"
+        },
+        {
+          "foreground": "#F822F8",
+          "style": "plain",
+          "template": "\uea83",
+          "type": "text"
+        },
+        {
+          "foreground": "#F822F8",
+          "properties": {
+            "style": "folder",
+            "folder_icon": ".."
+          },
+          "style": "plain",
+          "template": " {{ .Path }}",
+          "type": "path"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "overflow": "hide",
+
+      "segments": [
+        {
+          "foreground": "#01F0FF",
+          "style": "plain",
+          "template": " \ueb00",
+          "type": "text"
+        },
+        {
+          "foreground": "#01F0FF",
+          "style": "plain",
+          "template": " git ",
+          "type": "text"
+        },
+        {
+          "foreground": "#F822F8",
+          "properties": {
+            "branch_icon": "\udb81\ude2c "
+          },
+          "style": "plain",
+          "template": "{{ .HEAD }}  ",
+          "type": "git"
+        }
+      ],
+      "type": "rprompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#01F0FF",
+          "style": "plain",
+          "template": " \udb85\udfa9",
+          "type": "text"
+        },
+        {
+          "foreground": "#01F0FF",
+          "style": "plain",
+          "template": " \uf119",
+          "type": "exit"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}

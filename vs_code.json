@@ -1,0 +1,201 @@
+{
+  // Cascadia Code,Fira Code
+  // editor
+  "editor.fontSize": 22,
+  "editor.fontFamily": "Fira Code,Anonymous Pro,Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastColumn": 0,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.guides.bracketPairs": "active",
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  // "tailwindCSS.includeLanguages": {
+  //   "plaintext": "html"
+  // },
+
+  // color editor
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "workbench.iconTheme": "vscode-icons",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#212121",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#070707",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    "sideBar.background": "#212121",
+    "sideBar.border": "#212121",
+    "sideBar.dropBackground": "#212121",
+    "sideBarSectionHeader.background": "#212121",
+
+    "activityBar.background": "#212121",
+    "titleBar.activeBackground": "#212121",
+    "statusBar.background": "#212121",
+    "panel.background": "#212121"
+  },
+  "screencastMode.mouseIndicatorColor": "#ffff",
+  "editor.cursorSurroundingLines": 2,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.cursorWidth": 2,
+  "code-runner.saveFileBeforeRun": true,
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c11",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "code-runner.terminalRoot": "/",
+
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine"
+  },
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "code-runner.runInTerminal": true,
+  "json.schemas": [],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "npm.keybindingsChangedWarningShown": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "zig": "zig run",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName",
+
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && timeout 10s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')",
+
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && timeout 10s $dir$fileNameWithoutExt.exe < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')"
+
+    // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
+  },
+  "code-runner.saveAllFilesBeforeRun": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cSpell.languageSettings": [],
+  "workbench.settings.applyToAllProfiles": [],
+  "git.openRepositoryInParentFolders": "never",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.sideBar.location": "right",
+  "cSpell.userWords": ["Hashpassword"],
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "window.zoomLevel": -1
+  // "workbench.colorTheme": "Cobalt2"
+}
